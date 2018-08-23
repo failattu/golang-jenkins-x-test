@@ -6,6 +6,7 @@ pipeline {
       ORG               = 'failattu'
       APP_NAME          = 'golang-jenkins-x-test'
       GIT_PROVIDER      = 'github.com'
+      DOCKER_REGISTRY   = 'index.docker.io'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
     stages {
