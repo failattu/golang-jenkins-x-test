@@ -1,0 +1,5 @@
++ make tag
+sed -i -e "s/version:.*/version: 0.0.8/" Chart.yaml
+sed -i -e "s|repository: .*|repository: index.docker.io\/failattu\/golang-jenkins-x-test|" values.yaml
+sed -i -e "s/tag: .*/tag: 0.0.8/" values.yaml
+git add --all
