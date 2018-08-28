@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: index.docker.io/failattu/golang-jenkins-x-test
+  tag: 0.0.10
   pullPolicy: IfNotPresent
 service:
   name: golang-jenkins-x-test
